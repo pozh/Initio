@@ -1,0 +1,116 @@
+.navbar {
+  border-width: 1px 0;
+  -webkit-border-radius: 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0;
+  -moz-background-clip: padding;
+  border-radius: 0;
+  background-clip: padding-box;
+  width: 100%;
+}
+.navbar.stick {
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: .85;
+}
+.navbar-collapse {
+  -webkit-border-radius: 0;
+  -webkit-background-clip: padding-box;
+  -moz-border-radius: 0;
+  -moz-background-clip: padding;
+  border-radius: 0;
+  background-clip: padding-box;
+  font-family: "Open sans", Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.navbar-collapse .navbar-nav {
+  float: none;
+  margin: 0 auto;
+  text-align: center;
+}
+.navbar-collapse .navbar-nav > li {
+  float: none;
+  display: inline-block;
+}
+.navbar-collapse .navbar-nav > li > a {
+  padding: 20px 30px;
+}
+.dropdown ul.dropdown-menu {
+  top: 85%;
+  text-align: left;
+}
+.dropdown ul.dropdown-menu > li > a {
+  padding: 5px 30px;
+}
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #cccccc;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #454545;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #000000;
+  background-color: #ffffff;
+}
+.navbar-default .dropdown ul.dropdown-menu > li > a {
+  color: #454545;
+}
+.navbar-default .dropdown ul.dropdown-menu > li > a:hover {
+  background-color: #eeeeee;
+  color: #000000;
+}
+.navbar-default .navbar-toggle {
+  border-color: #ff0000;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #008000;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #0000ff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #cccccc;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  background-color: #ffffff;
+  color: #000000;
+}
+/****************************************************************************************
+
+
+                                     Sidebar special Nav
+
+
+*****************************************************************************************/
+.nav-side {
+  font-size: 24px;
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: -0.37em;
+}
+.nav-side > li > a {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #f392b4;
+}
+.nav-side > li > a:hover {
+  color: #bd1550;
+  background: none;
+}
+.nav-side > li.active > a {
+  color: #bd1550;
+}
